@@ -73,7 +73,7 @@ export default function App() {
 
   // Entry Form values
   const [username, setUsername] = useState("");
-  const [className, setClassName] = useState("VII-A");
+  const [className, setClassName] = useState("VIII A");
   const [chosenAvatar, setChosenAvatar] = useState("petualang1");
 
   // Game UI Screens
@@ -766,10 +766,10 @@ export default function App() {
                     <label className="block text-xs font-bold uppercase tracking-wider mb-2 text-slate-500 dark:text-slate-400">
                       Kelas SMP
                     </label>
-                    <div className="grid grid-cols-3 gap-2">
-                      {["VII-A", "VIII-B", "IX-C"].map((cls) => (
+                    <div className="grid grid-cols-2 gap-2">
+                      {["VIII A", "VIII B"].map((cls) => (
                         <button
-                          id={`class-btn-${cls}`}
+                          id={`class-btn-${cls.replace(/\s+/g, '-')}`}
                           key={cls}
                           type="button"
                           onClick={() => { if (audioEnabled) playClick(); setClassName(cls); }}
