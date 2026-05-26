@@ -1,0 +1,6 @@
+{
+  "name": "Lintas Alam Matematika SMP",
+  "description": "Game edukasi petualangan matematika interaktif untuk siswa SMP. Jelajahi alam sambil menyelesaikan tantangan matematika SMP terintegrasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
